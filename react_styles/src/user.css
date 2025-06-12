@@ -1,0 +1,10 @@
+.usercard{
+    background-color: orange;
+    margin-bottom: 5px;
+      width: 200px;
+    height: 300px;
+    border:2px solid red;
+    box-sizing: 3px 3px 4px white;
+    border-radius: 5px;
+    padding: 5px;
+}
