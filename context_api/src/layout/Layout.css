@@ -1,0 +1,28 @@
+
+
+.layout{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 200px 600px;
+    gap:10px;
+    grid-template-areas:
+    "header header"
+    "sidebar con"
+    ;
+}
+
+.layout-card{
+    background-color: orangered;
+    padding: 2rem;
+    color:white;
+}
+.header{
+    grid-area: header;
+}
+.content{
+    grid-area: con;
+}
+.sidebar{
+    grid-area: sidebar;
+    color: white;
+}
